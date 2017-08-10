@@ -1,8 +1,16 @@
 #include <QCoreApplication>
+#include <iostream>
+
+using namespace std;
+
 
 int main(int argc, char *argv[])
 {
-    QCoreApplication a(argc, argv);
 
-    return a.exec();
+    float number =  15.4;
+    cout << "Hola mundo" <<number<< endl;
+
+
+
+    return(0);
 }
